@@ -1,0 +1,11 @@
+[project]
+name = "object-tracking-antigravity"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "opencv-python>=4.13.0.90",
+    "ultralytics>=8.4.9",
+]
